@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="23" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="tileset1" tilewidth="10" tileheight="10">
+  <image source="../images/tileset1.bmp" width="320" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" value="true"/>
+    <property name="hook" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="769" name="entities" tilewidth="10" tileheight="10">
+  <image source="../images/entities.bmp" trans="ff00ff" width="320" height="240"/>
+ </tileset>
+ <layer name="background" width="150" height="23">
+  <data encoding="base64" compression="zlib">
+   eJzt2MEKg0AMBNAFD/7/H3sKDLraNG4cN87Ao4eCjiZa6NpaW+UTvBlxDva1ynO8GXEO9rVKLRZ2D6nFwu4htVjYPaQWC7uH1IFhd0HLCzpIHIbdxSyA3UWu54SfCMPuaR332J2kP6fep8F4j5XZ9Qz7PspxD/bzwTlhvHN/orf26d1+PfuY6DEyO7Pvn/Tn05vTv+8r/TYJ7sLZTuD3mKtjVdmpmbvPBOOZycxzqfBczALjmQu7b1Sldy5LNOzeWfT/xRjRsHtn0z7dEw27dzbt1T3RsHvLXPviDfv6RHsldWRnA+DdV7E=
+  </data>
+ </layer>
+ <layer name="middle" width="150" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztlkEOhCAMAMF1//9lY+JRsC0tK92ZZG4NKEyMtZRSL3fEAWvDrEjfVXMmEbOSOe29te76SQt0NTYXNUtXa0FXOreHNbV7ZYWu6CoCuqKrCOjqvp2eFv6tK+m5ac5XMys9a8ma2ga8v0mWvSAfZz90Bd7QFURAVxCB9795D7qCHtYmVulqhWfMCF35rT17NmLOi1YfVt8GXdFVBHRFV6PMfka6ku9JV/b9fjErIVtXs9ujq7H13tbVFzHADyLiIh7eYwuu
+  </data>
+ </layer>
+ <layer name="entities" width="150" height="23">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKwCAMBECtL9eX9yLoSYqnWGfAB2TZBFMCAAAAAIDzlDIeRHRDR2+YMaomc+BwjzsG/lKEoo9rcz5y4s9y73ZddPzLHtgVAADY9wISbgGv
+  </data>
+ </layer>
+ <layer name="foreground" width="150" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAAAAeBo16AAB
+  </data>
+ </layer>
+</map>

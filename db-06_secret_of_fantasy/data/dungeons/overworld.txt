@@ -1,0 +1,3 @@
+method:load
+file:overworld.txt
+music:olof4.xm

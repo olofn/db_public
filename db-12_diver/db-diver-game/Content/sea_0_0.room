@@ -1,0 +1,39 @@
+0........................
+0........................
+0...........0....0....0..
+0......0....0....0....0..
+0........................
+00000.00.................
+.......2.................
+.......2...0......0....0.
+00000002...00000000.0000.
+00....02.................
+00....02.................
+00.......................
+0022.....................
+00....2..................
+0011..2..................
+0000..2..................
+3333..2.33333333333333333
+
+
+Shoal(new Color(46, 162, 200))
+Decoration(new SpriteGrid("bgcave01", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(46, 162, 200))
+Shoal(new Color(8, 119, 156))
+Decoration(new SpriteGrid("bgcave02", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(8, 119, 156))
+Decoration(new SpriteGrid("bgcave03", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(0, 77, 102))
+Decoration(new SpriteGrid("bgcave04", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(0, 44, 58))
+
+Fish("yellow_fish", 2, 2, 2, Room.Layer.Background)
+Fish("green_fish", 2, 12, 5, Room.Layer.Background)
+Fish("yellow_fish", 2, 3, 7, Room.Layer.Background)
+Fish("green_fish", 2, 6, 12, Room.Layer.Background)
+//Shoal(Color.Yellow)
+Box("box", 200, 200, 15);
+
+
+Bomb(48, 96)
+Explodable(0, 6);
+Explodable(1, 6);
+Explodable(0, 7);
+Explodable(1, 7);

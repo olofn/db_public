@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="250" height="23" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="entities" tilewidth="10" tileheight="10">
+  <image source="../images/entities.bmp" trans="ff00ff" width="320" height="240"/>
+ </tileset>
+ <tileset firstgid="769" name="tileset1" tilewidth="10" tileheight="10">
+  <image source="../images/tileset1.bmp" width="320" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" value="true"/>
+    <property name="hook" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="250" height="23">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENwCAMRUEkS+w/MgukMCCR4FxxnfV+5YjWAgAAAAAAAAAAAAAAAD6oP9DT07ujt7K3s6+np3eml73NbM5s6+npvdPb3cvs6+np3dEDzvO/UJ8/h/r8OdTnzwHg3waVUZ3n
+  </data>
+ </layer>
+ <layer name="middle" width="250" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztWcsOwzAIW7f//+eddpmSNuFhTGRLPrUEDHhVu+vzel2iKIpBfCewWhNCc7WGTI4wu4aOEeNm6kW1JoTmag3o/syuoWPEuJl6Ua0JoblaA7o/s2voGNZ9WAHbTDvrQWmu1oDuz+99ZdYHVAzrPqyAbaZPtTHrQc21WgNLf9Ax1Xo9GOXO+D42+o70hFHsqh7W73sRqPYiy97L5z4NqJzdzrZAPpfP5fNeZ1sgn8vn8nmvsy3Y6e3qLlR7kWXvT/A5yneW92Yv5PO1e7v7PBvyuQ3M8/GcXTkXS+zTPdX+ZdtbYQ+ouUXlWD2n6v+Cu9wruiy65V3hCagZ33nIew5iH7NznOZz/Y7sI3M+J/RaPud7RjPV0gXy+T3kc75ndFYt6Jj/2KweZPf1JJ937lOEz7Mhn9d7l3V/LdjdgRP6VOXz6l1k97kV1njv3kfXkwnv7mYgop4sr2bXJJ9zwuJzppnK5/l5mGjRxhjDDMaZyuf5eZho0cYQY51Z1Kx3esk4U8/9DPUz1NmJlh6iYrrxBA2iKNr5Bb6OLqs=
+  </data>
+ </layer>
+ <layer name="entities" width="250" height="23" visible="0" opacity="0.61">
+  <data encoding="base64" compression="zlib">
+   eJzt2ksOgyAQAFD73Xiq9v6H6sakK4oKRRzeS8wkGgzCDCTEaQIAqOeWiGeX+q61EaKJluOlNR5lHPgafU7lONHJbRiDGofY7Ocwhl817twGYnhknqtxiM1+fozc2gtnc1li77nde/8AsFanPBP3X017AQAAHMWZPYxBrUNsapwj7fknpFUboJ49tdeqDdttHWfzEp/9PO+9xGvBO+YaHVlh6zj3Ni/3ggv+Tb7B2D5RNgJb
+  </data>
+ </layer>
+ <objectgroup name="camera" width="250" height="23">
+  <object x="2180" y="0" width="320" height="230"/>
+ </objectgroup>
+</map>

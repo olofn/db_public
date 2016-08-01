@@ -1,0 +1,92 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Torus">
+      <name>
+      </name>
+      <dimension x="400" y="40" width="100" height="20" />
+      <properties>
+        <float value="0,3">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="0,7">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <byte value="10">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <byte value="20">
+          <animation channel="-1" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="400" y="160" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Normals Shader">
+      <name>
+      </name>
+      <dimension x="400" y="180" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Random Selection">
+      <name>
+      </name>
+      <dimension x="400" y="80" width="100" height="20" />
+      <properties>
+        <byte value="128">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Extrude">
+      <name>
+      </name>
+      <dimension x="400" y="100" width="100" height="20" />
+      <properties>
+        <float value="0,1">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Subdivide">
+      <name>
+      </name>
+      <dimension x="400" y="120" width="100" height="20" />
+      <properties>
+        <byte value="2">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <float value="0,5">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Relax">
+      <name>
+      </name>
+      <dimension x="400" y="140" width="100" height="20" />
+      <properties>
+        <float value="0,1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <byte value="3">
+          <animation channel="-1" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Weld">
+      <name>
+      </name>
+      <dimension x="400" y="60" width="100" height="20" />
+      <properties />
+    </operator>
+  </page>
+</project>

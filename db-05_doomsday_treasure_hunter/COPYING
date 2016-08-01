@@ -1,0 +1,5 @@
+All source under the src directory is licensed under the BSD license except
+the source under the src/dumb directory which is licensed under the Dumb license.
+
+The BSD license is found in the file BSD-license and the Dumb license is found
+in the file Dumb-license.

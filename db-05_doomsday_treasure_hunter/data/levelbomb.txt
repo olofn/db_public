@@ -1,0 +1,26 @@
+Training
+22
+2000
+training.xm
+1111111111111111111111111111
+1...........2......2......t1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...........2......2.......1
+1...p.......2......2..s..g.1
+1111111111111111111111111111
+DIALOG
+B X: The destruction of the planets are going much slower than I anticipated.
+B X: And it seems the inhabitants have hidden treasures behind walls.
+B X: This will not stand! I will now grant you the power of dropping bombs.
+B X: Press the SHIFT key to drop a bomb and blow this place apart!
+P KOODIE: As you desire my lord! 

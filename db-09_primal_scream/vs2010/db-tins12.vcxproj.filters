@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dumb">
+      <UniqueIdentifier>{b9eb2ec9-7e7b-483f-9fe1-5e6ac729c638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math3d">
+      <UniqueIdentifier>{fe43436d-b1bc-4a11-93c8-a258c46ba78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TmxParser">
+      <UniqueIdentifier>{613efd7d-b5fc-4e0d-88cd-1c042b63ea58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math3d">
+      <UniqueIdentifier>{a4a31a71-46dd-4ec3-a241-a907686d5fa7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Animation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Blending.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DrawUtil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Entity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EntityFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Font.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Hero.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Level.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LevelDescription.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Music.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ParticleSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Precompiled.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Room.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RoomLoader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Screen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ScreenManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Sound.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SplashScreen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Tile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Time.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Title.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Util.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Resource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Input.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TINS12Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EnemyDragon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\World.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Background.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Powerup.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Savepoint.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MovableBox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EnemyBoss.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MusicPlayer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\frame.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\math3d.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\matrix.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\quaternion.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\random.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\scalarfunc.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\vector.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math3d\vectorfunc.h">
+      <Filter>Header Files\math3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shooter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\End.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Intro.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Portal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PowerUpScreen.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Outro.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Blending.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DrawUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EntityFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RoomLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SplashScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Title.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\alplay.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datduh.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datit.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datitq.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datmod.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datmodq.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\dats3m.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\dats3mq.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datunld.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datxm.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\datxmq.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\allegro\packfile.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\atexit.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\duhlen.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\duhtag.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\dumbfile.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\loadduh.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\makeduh.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\rawsig.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\readduh.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\register.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\rendduh.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\rendsig.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\core\unload.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\helpers\clickrem.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\helpers\memfile.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\helpers\resample.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\helpers\sampbuf.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\helpers\silence.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\helpers\stdfile.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itload.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itload2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itmisc.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itorder.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itread.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itread2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itrender.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\itunload.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\loadmod.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\loadmod2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\loads3m.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\loads3m2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\loadxm.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\loadxm2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\readmod.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\readmod2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\reads3m.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\reads3m2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\readxm.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\readxm2.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\dumb\it\xmeffect.c">
+      <Filter>Source Files\dumb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxImage.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxLayer.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxMap.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxObject.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxObjectGroup.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxPropertySet.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxTile.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxTileset.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\TmxUtil.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\base64\base64.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\tinyxml\tinystr.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\tinyxml\tinyxml.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\adler32.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\compress.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\crc32.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\deflate.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\gzclose.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\gzlib.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\gzread.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\gzwrite.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\infback.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\inffast.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\inflate.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\inftrees.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\trees.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\uncompr.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extsrc\TmxParser\zlib\zutil.c">
+      <Filter>Source Files\TmxParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TINS12Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnemyDragon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Background.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Powerup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Savepoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MovableBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EnemyBoss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MusicPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math3d\math3d.cpp">
+      <Filter>Source Files\math3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math3d\random.cpp">
+      <Filter>Source Files\math3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PowerUpScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\End.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Portal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shooter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Outro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

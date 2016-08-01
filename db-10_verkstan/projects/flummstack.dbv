@@ -1,0 +1,260 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Add Models">
+      <name>
+      </name>
+      <dimension x="200" y="100" width="200" height="20" />
+      <properties />
+    </operator>
+    <operator type="Camera">
+      <name>
+      </name>
+      <dimension x="200" y="120" width="100" height="20" />
+      <properties>
+        <float value="45">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <int value="1024">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <int value="768">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <color r="255" g="0" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <vector x="0" y="0" z="-5">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <float value="0">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Store">
+      <name>o</name>
+      <dimension x="300" y="120" width="100" height="20" />
+    </operator>
+    <operator type="Load">
+      <name>
+      </name>
+      <dimension x="600" y="100" width="100" height="20" />
+      <target>o</target>
+    </operator>
+    <operator type="Transform Model">
+      <name>
+      </name>
+      <dimension x="300" y="80" width="100" height="20" />
+      <properties>
+        <vector x="1" y="1" z="1">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+      </properties>
+    </operator>
+    <operator type="Transform Model">
+      <name>
+      </name>
+      <dimension x="200" y="80" width="100" height="20" />
+      <properties>
+        <vector x="1" y="1" z="1">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="1,08" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+      </properties>
+    </operator>
+    <operator type="Add Models">
+      <name>
+      </name>
+      <dimension x="300" y="60" width="200" height="20" />
+      <properties />
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="300" y="40" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Box">
+      <name>
+      </name>
+      <dimension x="400" y="0" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Icosahedron">
+      <name>
+      </name>
+      <dimension x="300" y="20" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="200" y="60" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Box">
+      <name>
+      </name>
+      <dimension x="200" y="40" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Transform Model">
+      <name>
+      </name>
+      <dimension x="400" y="40" width="100" height="20" />
+      <properties>
+        <vector x="1" y="1" z="1">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="-1,05" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+      </properties>
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="400" y="20" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Timeline">
+      <name>
+      </name>
+      <dimension x="200" y="140" width="100" height="20" />
+      <properties>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <float value="0">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+      <timeline />
+    </operator>
+    <operator type="Timeline">
+      <name>
+      </name>
+      <dimension x="200" y="160" width="500" height="20" />
+      <properties>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <float value="0">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+      <timeline />
+    </operator>
+    <operator type="Camera">
+      <name>
+      </name>
+      <dimension x="600" y="120" width="100" height="20" />
+      <properties>
+        <float value="45">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <int value="1024">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <int value="768">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <color r="255" g="0" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <vector x="0" y="0" z="-5">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <float value="0">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Timeline">
+      <name>
+      </name>
+      <dimension x="600" y="140" width="100" height="20" />
+      <properties>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <float value="0">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+      <timeline />
+    </operator>
+  </page>
+</project>

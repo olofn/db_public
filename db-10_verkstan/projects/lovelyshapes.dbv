@@ -1,0 +1,231 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="400" y="120" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Icosahedron">
+      <name>
+      </name>
+      <dimension x="400" y="60" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Icosahedron">
+      <name>
+      </name>
+      <dimension x="200" y="60" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Subdivide">
+      <name>
+      </name>
+      <dimension x="200" y="80" width="100" height="20" />
+      <properties>
+        <byte value="5">
+          <animation channel="0" amplify="1" />
+        </byte>
+        <float value="0">
+          <animation channel="0" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Normals Shader">
+      <name>
+      </name>
+      <dimension x="200" y="140" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Torus">
+      <name>
+      </name>
+      <dimension x="600" y="60" width="100" height="20" />
+      <properties>
+        <float value="0,525">
+          <animation channel="0" amplify="1" />
+        </float>
+        <float value="0,7">
+          <animation channel="0" amplify="1" />
+        </float>
+        <byte value="35">
+          <animation channel="0" amplify="1" />
+        </byte>
+        <byte value="61">
+          <animation channel="0" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Weld">
+      <name>
+      </name>
+      <dimension x="600" y="80" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Spherize">
+      <name>
+      </name>
+      <dimension x="400" y="100" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="0" amplify="1" />
+        </float>
+        <float value="-1">
+          <animation channel="0" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Subdivide">
+      <name>
+      </name>
+      <dimension x="400" y="80" width="100" height="20" />
+      <properties>
+        <byte value="5">
+          <animation channel="0" amplify="1" />
+        </byte>
+        <float value="0">
+          <animation channel="0" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Spherize">
+      <name>
+      </name>
+      <dimension x="600" y="100" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="0" amplify="1" />
+        </float>
+        <float value="0,697">
+          <animation channel="0" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="600" y="120" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Normals Shader">
+      <name>
+      </name>
+      <dimension x="600" y="140" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Normals Shader">
+      <name>
+      </name>
+      <dimension x="400" y="140" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="200" y="120" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Spherize">
+      <name>
+      </name>
+      <dimension x="200" y="100" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="0" amplify="1" />
+        </float>
+        <float value="2">
+          <animation channel="2" amplify="3" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Camera">
+      <name>
+      </name>
+      <dimension x="200" y="180" width="100" height="20" />
+      <properties>
+        <float value="45">
+          <animation channel="0" amplify="1" />
+        </float>
+        <int value="1024">
+          <animation channel="0" amplify="1" />
+        </int>
+        <int value="768">
+          <animation channel="0" amplify="1" />
+        </int>
+        <color r="0" g="0" b="0">
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+        </color>
+        <vector x="0" y="0" z="-2,7">
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+        </vector>
+        <float value="0">
+          <animation channel="0" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Transform Model">
+      <name>
+      </name>
+      <dimension x="200" y="160" width="100" height="20" />
+      <properties>
+        <vector x="0,7" y="0,7" z="0,7">
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+        </vector>
+        <vector x="-0,55" y="1,61" z="0,6">
+          <animation channel="1" amplify="5" />
+          <animation channel="1" amplify="1" />
+          <animation channel="1" amplify="3" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+          <animation channel="0" amplify="1" />
+        </vector>
+      </properties>
+    </operator>
+    <operator type="Timeline">
+      <name>
+      </name>
+      <dimension x="200" y="200" width="100" height="20" />
+      <properties>
+        <byte value="1">
+          <animation channel="0" amplify="1" />
+        </byte>
+        <float value="0">
+          <animation channel="0" amplify="1" />
+        </float>
+      </properties>
+      <timeline>
+        <channel>
+          <number>1</number>
+          <clip type="generator">
+            <dimension x="0" y="0" width="32" />
+            <generatortype>2</generatortype>
+            <period>8448</period>
+          </clip>
+        </channel>
+        <channel>
+          <number>2</number>
+          <clip type="generator">
+            <dimension x="0" y="1" width="32" />
+            <generatortype>0</generatortype>
+            <period>512</period>
+          </clip>
+        </channel>
+      </timeline>
+    </operator>
+  </page>
+</project>

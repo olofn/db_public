@@ -1,0 +1,43 @@
+Training, again?
+30
+2000
+training.xm
+1111111111111111111111111111
+1.........................t1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+111111111..................1
+1...111111111..11111111..111
+1......111111111111111111111
+1......11111111...nn.......1
+1.......111111....nn.......1
+1.......111111....nn.......1
+1........nnnn....1111mmmmmm1
+1........nnnn...11111mmmmmm1
+1...p..11111111111111.s..g.1
+1111111111111111111111111111
+DIALOG
+B X: As you probably have figured out by now I'm going to lend you another skill.
+B X: Just like in B.A.L.L.Z... the maker of this game sure knows how to resue code...
+O OLOF: Hey! That's not against the rules!
+O OLOF: And besides, this engine is completely different, a whole new code base.
+B X: Yeah sure, reused from another of your old projects. Am I not right?
+O OLOF: ...sort of... I guess... But most of it has been rewritten and customized!
+B X: And the graphics? How do you think you fool?
+B X: It's the same graphics from B.A.L.L.Z. and Dr. Madness. Just in black and white!
+O OLOF: ... but I think it looks good...
+B X: I rest my case... Please go away now maker!
+O OLOF: ... okay... I'll leave you two alone...
+B X: Finally some peace and quiet!
+P KOODIE: You were going to lend me a skill my lord?  
+B X: Yes... but now I'm not in the mood anymore.
+B X: Ah, what the hell. Press SPACE to shield yourself from laser beams.
+B X: They trigger an explosion if you cross them you know.
+B X: But remember, when you use it, blablala, and you have to, blablabla.
+B X: Okay?
+P KOODIE: I think so my lord...
+B X: You don't think. I think! Now GO and get me MY treasures!

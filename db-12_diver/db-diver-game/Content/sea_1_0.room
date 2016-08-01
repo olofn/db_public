@@ -1,0 +1,50 @@
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+.........................
+........................2
+........................2
+........................2
+........................2
+......3113113113113.....2
+3333333333333333333333..3
+
+BoatRope()
+Fish("yellow_fish", 2, 2, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 2, 12, Room.Layer.Background)
+Button(3, 15, "ted")
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)
+Fish("yellow_fish", 2, 12, 7, Room.Layer.Background)

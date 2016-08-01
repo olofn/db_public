@@ -1,0 +1,3 @@
+method:load
+file:vaporandhisplan.txt
+music:olof2.xm

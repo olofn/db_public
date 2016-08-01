@@ -1,0 +1,247 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Box">
+      <name>
+      </name>
+      <dimension x="300" y="40" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Relax">
+      <name>
+      </name>
+      <dimension x="300" y="80" width="100" height="20" />
+      <properties>
+        <float value="-0,003">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <byte value="2">
+          <animation channel="-1" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Subdivide">
+      <name>
+      </name>
+      <dimension x="300" y="60" width="100" height="20" />
+      <properties>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Material">
+      <name>
+      </name>
+      <dimension x="300" y="100" width="200" height="20" />
+      <properties />
+    </operator>
+    <operator type="Pixels">
+      <name>
+      </name>
+      <dimension x="400" y="80" width="100" height="20" />
+      <properties>
+        <color r="255" g="255" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <color r="255" g="255" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <int value="25566">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <int value="0">
+          <animation channel="-1" amplify="1" />
+        </int>
+      </properties>
+    </operator>
+    <operator type="Clone Model">
+      <name>
+      </name>
+      <dimension x="300" y="140" width="100" height="20" />
+      <properties>
+        <byte value="16">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <vector x="1" y="1" z="1">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0,21" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="1,2" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+      </properties>
+    </operator>
+    <operator type="Transform Model">
+      <name>
+      </name>
+      <dimension x="300" y="120" width="100" height="20" />
+      <properties>
+        <vector x="1" y="1" z="1">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="1" amplify="5" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+      </properties>
+    </operator>
+    <operator type="Timeline">
+      <name>
+      </name>
+      <dimension x="300" y="200" width="100" height="20" />
+      <properties>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <int value="0">
+          <animation channel="-1" amplify="1" />
+        </int>
+      </properties>
+      <timeline>
+        <channel>
+          <number>1</number>
+          <clip type="spline">
+            <dimension x="0" y="0" width="20" />
+            <splinetype>1</splinetype>
+            <controlpoints>
+              <controlpoint>
+                <dimension x="6" y="-0,9615384" />
+              </controlpoint>
+              <controlpoint>
+                <dimension x="5111" y="0,9692308" />
+              </controlpoint>
+            </controlpoints>
+          </clip>
+        </channel>
+      </timeline>
+    </operator>
+    <operator type="Camera">
+      <name>
+      </name>
+      <dimension x="300" y="180" width="100" height="20" />
+      <properties>
+        <float value="45">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <int value="1024">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <int value="768">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <color r="255" g="0" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <vector x="-0,62" y="-0,01" z="-3,23">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="22,02" y="0" z="20">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <float value="0">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Add Models">
+      <name>
+      </name>
+      <dimension x="300" y="160" width="200" height="20" />
+      <properties />
+    </operator>
+    <operator type="Light">
+      <name>
+      </name>
+      <dimension x="400" y="140" width="100" height="20" />
+      <properties>
+        <enum value="0">
+          <animation channel="-1" amplify="1" />
+        </enum>
+        <color r="255" g="255" b="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <color r="255" g="255" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <color r="0" g="0" b="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <vector x="0" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <vector x="1" y="0" z="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </vector>
+        <float value="10">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="10">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+  </page>
+</project>

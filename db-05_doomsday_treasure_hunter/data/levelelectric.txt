@@ -1,0 +1,31 @@
+Training
+22
+2000
+training.xm
+1111111111111111111111111111
+1.........................t1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..p...1..z..z...z....z.sg.1
+1111111111111111111111111111
+DIALOG
+B X: This is an outrage! On some planets they have the guts to defend themselves.
+B X: And as you are practically useless unarmed something needs to be done.
+P KOODIE: ...
+B X: I'll lend you my power to initiate an electronic chock. It will stun your opponents for a short while.
+B X: Press CTRL to initiate a chock. But be aware, you need to recharge in order to use it again.
+B X: Now go, quickly, and get my treasures!
+P KOODIE: As you command my lord!

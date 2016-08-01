@@ -1,0 +1,62 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Clouds">
+      <name>
+      </name>
+      <dimension x="300" y="20" width="100" height="20" />
+      <properties>
+        <color r="0" g="0" b="0">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <color r="255" g="255" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <enum value="1">
+          <animation channel="-1" amplify="1" />
+        </enum>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Text">
+      <name>
+      </name>
+      <dimension x="400" y="20" width="100" height="20" />
+      <properties>
+        <color r="255" g="255" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <byte value="100">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <byte value="10">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <byte value="5">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <string value="" />
+        <text>Text!</text>
+      </properties>
+    </operator>
+    <operator type="Merge Textures">
+      <name>
+      </name>
+      <dimension x="300" y="40" width="200" height="20" />
+      <properties>
+        <enum value="5">
+          <animation channel="-1" amplify="1" />
+        </enum>
+      </properties>
+    </operator>
+  </page>
+</project>

@@ -1,0 +1,27 @@
+p<<1<<3.............
+...>...v<n5.......h.
+.v<m..vz.>........>.
+.>.c<n4..6........>.
+.2...>.....v<n<e<<z.
+.....>.....>.>......
+..v<<7<<f..>.>......
+..>.......vz.c<x....
+..8..v<<<<w....>....
+..>..>.........>....
+..,<<bq........g....
+..9.................
+1 level1.txt
+2 level2.txt
+3 level3.txt
+4 levelwalljump.txt
+5 level5.txt
+6 level6.txt
+7 levelbomb.txt
+8 level7.txt
+9 levelelectric.txt
+q level8.txt
+w level9.txt
+e levellasershield.txt
+f level10.txt
+g level11.txt
+h levelend.txt

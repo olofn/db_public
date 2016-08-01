@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="44" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="tileset1" tilewidth="10" tileheight="10">
+  <image source="../images/tileset1.bmp" width="320" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" value="true"/>
+    <property name="hook" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="769" name="entities" tilewidth="10" tileheight="10">
+  <image source="../images/entities.bmp" trans="ff00ff" width="320" height="240"/>
+ </tileset>
+ <layer name="background" width="150" height="44">
+  <data encoding="base64" compression="zlib">
+   eJzt2E0KgzAQBlDBRc7R+1+yULoowfpHNJnxLR5mIAsjH5OYeZqmGYCP0mgObFnLUdkxB37JCi2VlfFSf5I/9qizs/WEo/71p7IwhjXlhN7vzPjkiiuMnis5jmnkXOmRtNa7T5LPCL3y6Ubcv4gve6Yiv3tk2TMVfQ1RPSFT0dcS0VMyFX1NQH56FK3Z/2jN2YrWnNsBAACgr/of/O6anOr7nbtrcqrvDu+ua6+v3t+FNrnqVdfkKofRzldyxRXkCgAAAAA46g2RBVIN
+  </data>
+ </layer>
+ <layer name="middle" width="150" height="44">
+  <data encoding="base64" compression="zlib">
+   eJztm9sOwiAQRNH4/99s+tCkYimXnWV3YU4y0fQSFjhSNPGVUnoxjEJIGeu5iRxSxnpuImdX3g3XWM9N5JAy1nODzBsUetVPvoZZu+BxDaFXcqw9oFfP7Vvcj8Dag1W9svQCdb8Eaw+kyfdFCJBefYQZQdqmpO0Tay8QXqFBezXaN4lX0nGlV3joFb1a3avR0Kv1vYoaCZpzntLv+N8dk9bkfd9e41N49XJ+FAuvNGtCMNOrg9oaYX1+BI9eeQft1UHtea7xvJfyVJOGSynde7UKLWsXcv2MCL3q5+zrdW9XumZXtJ556eFYdHqeg5r7QM/Qq36kXu0A0id69X/Njk4daHu1IqNe7QTSp96xQzhtwYhXu0Gv+un1akdK/b9zBeVTre38XGSvooOe2xavtNrOz0X2ivkfl5Qd9+aVdVr65hV65TctffPKrl55p/Wz4BWLz9rZ7vU1f48gwviXuKv57j+uXpnt07XdlmMSVvMqErN9qtWChF4RDegV0YBeEQ3o1Xp4+E5Mr/SZse+utTMbeqWPtlezvjOO1hSNKDWjf6ey+i2iB3qlj7VT9KqPKDVbO0Wv+kDXrDUO1k7Rqz7oVYxEI8o4WM+rdaLxBcvJCtE=
+  </data>
+ </layer>
+ <layer name="entities" width="150" height="44" opacity="0.27">
+  <data encoding="base64" compression="zlib">
+   eJzt3GGKwjAQhmHXqujeQvb+d5SChf5oN5N0ppmZvA8EF7pok3yMbRO8XAAb74m219CO8YMFcgUL5AoWzsrVNNW9Qt+Z15xn1qvaTN3JmKqMuaJe9efxHnmpHb+C95b8zxFb72/9mRl4yNWNeUrHQ66y3if+Je2XRLZczbWvtkFftlz19Gzox1zTXkn6P7t++0KuYMFDrtCH5dyRKxzhZf4fTs6jNB5Hj3umee6Rx+E/pWfo1sczaVmniJarn+/5StbtSnNufdyj5d60dt5r176i5UqKenXMuj8j1CvEYJkrac3k2XY/pflv3SdkXa8k3xfUzP4ifY+Pfo3nQcsaUgTUKz+yjLNmvWrZj+CpbbHe4+w1R8sz8NIr4ol0PWVJY73SoiEWaiHgx3OjjlJXUUs7M1x3jWmZd0meyAg0lLJGzgBY23t+Sv3JIeNvgJBNYEzr3/3Y+xvnqt3rmn0f8B5pP0cZDwkyBW2a9Yq1RUDOw56xSBgLABF8ALrDM2k=
+  </data>
+ </layer>
+ <objectgroup name="camera" width="150" height="44">
+  <object x="1180" y="40" width="320" height="230"/>
+ </objectgroup>
+</map>

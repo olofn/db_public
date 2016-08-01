@@ -1,0 +1,34 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Box">
+      <name>
+      </name>
+      <dimension x="400" y="20" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="400" y="40" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Normals Shader">
+      <name>
+      </name>
+      <dimension x="400" y="60" width="100" height="20" />
+      <properties />
+    </operator>
+  </page>
+</project>

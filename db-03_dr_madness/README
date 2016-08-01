@@ -1,0 +1,90 @@
+===============================================================================
+
+
+                                  DR. MADNESS
+                                  
+                                       ~     
+                                       
+        Or: How Fluffy Love Learned to Stop Worrying and Love the Bomb
+
+                                                             BY: Team Darkbits
+===============================================================================
+
+   
+   About:
+   
+      This our entry for SpeedHack 2007, http://www.speedhack.allegro.cc/
+      
+      Created in 72 hours by
+      
+        Per Larsson: Code, Additional Graphics, Sound & Music
+        
+        Olof Naessen: Code, Graphics
+        
+        Ted Steen: Code
+
+
+   Controls:
+   
+      * W, S, A, D or arrow keys to move
+      
+      * Mouse to aim
+      
+      * Left mouse button to shoot
+      
+      * Right mouse button to use Megablast
+      
+      * P pauses the game.
+
+
+   Implemented rules:
+   
+      * Evilness
+        (you'll see)
+        
+      * Radius of Influence
+        Implemented as magnetic mines that seeks the player
+        
+      * Get a Grip
+        Different levels have different air friction
+        
+      * Reverse Stereotypes
+        We think our characters are quite novel, at least
+        
+      * Dialogue
+        The player is given a choice to either go to the bonus level
+        or to upgrade a few times in the game, implemented as a dialogue.
+        The upgrade shop is also a dialogue (sort of).
+
+
+   The following rule has been omitted (thanks to rule 'Act of Generosity'):
+
+      * Ratio, Respect!
+
+
+   Code reuse:
+
+      * resourcehandler.cpp, 
+        timer.cpp, 
+        music.cpp, 
+        os.hpp from Ballz, http://code.google.com/p/db-tins07/
+        
+      * animation.cpp,
+        splashscreen.cpp,
+        parts of dialog.cpp,
+        decoratedcontainer.cpp,
+        stringutil.hpp,
+        parts of optiondialog.cpp,
+        entity.cpp
+	    from Nodajo's Mechanical Castle, http://code.google.com/p/db-nmc/
+
+
+   Music:
+
+      * Composed by us, some prior to the competition.
+
+
+   Libraries Needed:
+
+      * Guichan SVN snapshot, http://code.google.com/p/guichan/source
+      * Dumb, http://dumb.sourceforge.net/

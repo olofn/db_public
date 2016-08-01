@@ -1,0 +1,11 @@
+* Se till att spelare kommer tillbaka till sitt förra state om de blir skadade.
+* Fixa magier Fire, Ice, Bolt, Cure, Revive
+* Göra så att man måste säga till Battle att byta strid så det inte sker med "korkad" logik
+* Lägga in en timeout mellan varje action så att spelet inte uppfattas så fort
+* Göra så att det blir tydligare vilken spelare som har action
+* Spara i vilken strid man är och lägga till Continue i huvudmenyn som startar sparad strid.
+* Se till att Escape inte abrupt avslutar programmet
+* Lägga till Abilities som använder sig av knappkombinationer
+* Lägga till ett boolskt val i Guit för att låta striderna välja vart man skall gå härnäst.
+* Lägga till Items.
+* Lägga till in och ut fade-ning mellan strider.

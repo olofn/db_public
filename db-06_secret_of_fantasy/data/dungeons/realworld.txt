@@ -1,0 +1,8 @@
+method:load
+file:playerhouse.txt
+=
+method:load
+file:grocerystore.txt
+=
+method:load
+file:playerhouseending.txt

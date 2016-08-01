@@ -1,0 +1,4 @@
+All source under the src directory is licensed under the BSD license except.
+
+The BSD license is found in the file BSD-license and the Dumb license is found
+in the file Dumb-license and the TMX-parser license is found in the tmx-parser-license.txt.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="74" height="34" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="tileset1" tilewidth="10" tileheight="10">
+  <image source="../images/tileset1.bmp" width="320" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" value="true"/>
+    <property name="hook" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="769" name="entities" tilewidth="10" tileheight="10">
+  <image source="../images/entities.bmp" trans="ff00ff" width="320" height="240"/>
+ </tileset>
+ <layer name="background" width="74" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt10EOgCAMBEASD7zD/3/Su+lCawOtZQ97MVjpREF6a62DXMqg+y01ssfao3T9VCfkQSdfbxVdZk7eGtH9ZHTqQo3ofuiUx8liQyc60cnvZBmPjE91Gv1TSk6Vo3GS3qG3U3Wvr07VzynICa3PdFrnVNELOUnrkNWpkhed6LTSSWNAJ79T1fV89M15IjndIGhumcavdtIEzTdy/KivKKc/hU77jehEp4p90SnWatez0D49268zZKeT5YzAMMy5eQDcFDTb
+  </data>
+ </layer>
+ <layer name="middle" width="74" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztmNEOwyAIRe3+/6P3tMQ0q1wuILhxEl5mRTjNqu01xrg6OpJjZv79BYQGpJZ7fnbcywPSSwSaWi1oXX2rc8UuTzvW1bjSkuVJGmNBXWnx8sTUFXWPJFcMnvOZ2jL+fwzW+cgeKe2T976sVPTkwdyX9uwh5fPaX6t4+vTWntawZ9mnXDs9VfDH0J4w2hNGlicpPJ4pnmR6Wr23t6fnMcv3lmgqeapMe8JoTxjtCUPyxDxPf9HT6gzjkVMzVhlvR3NOaT0vkHMrM4fJy9Qt9WTF0s8/ePKslV3zJE87ifCkXe8ETvCEXpMRUbCeVtdlOYp0nV1TxWhP7ekN4VID9g==
+  </data>
+ </layer>
+ <layer name="entities" width="74" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1lsKgCAQQNFqotcuov3vMfqMLCxf03gPSD9RcFW0aQBYJHIdpYwF/+3iaqOplwa+je46tZX0C+1UCzr50dBplbCRQ+lGf6Gl0VbJXKRqba3fl07a7pE5aNi7pS1yfgJWzRnW+MQ+AlR5e75rex/hrN3x/yDVWThE+G7HegDM43z1Qyc/dIqnl+cBAIcdf9cGdw==
+  </data>
+ </layer>
+ <layer name="foreground" width="74" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAABgnUAAB
+  </data>
+ </layer>
+ <objectgroup name="camera" width="74" height="34">
+  <object x="290" y="110" width="170" height="110"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,137 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Sphere">
+      <name>
+      </name>
+      <dimension x="700" y="100" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="255" amplify="1" />
+        </float>
+        <byte value="55">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="57">
+          <animation channel="255" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Clouds">
+      <name>
+      </name>
+      <dimension x="500" y="60" width="100" height="20" />
+      <properties>
+        <color r="0" g="0" b="0">
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+        </color>
+        <color r="255" g="255" b="255">
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+        </color>
+        <enum value="3">
+          <animation channel="255" amplify="1" />
+        </enum>
+        <byte value="1">
+          <animation channel="255" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Displacement Map">
+      <name>
+      </name>
+      <dimension x="600" y="120" width="200" height="20" />
+      <properties>
+        <float value="0,484">
+          <animation channel="255" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Glow">
+      <name>
+      </name>
+      <dimension x="500" y="80" width="100" height="20" />
+      <properties>
+        <color r="128" g="128" b="128">
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+        </color>
+        <byte value="128">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="0">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="255">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="32">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="0">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="255">
+          <animation channel="255" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Glow">
+      <name>
+      </name>
+      <dimension x="500" y="100" width="200" height="20" />
+      <properties>
+        <color r="128" g="128" b="128">
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+          <animation channel="255" amplify="1" />
+        </color>
+        <byte value="128">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="255">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="255">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="32">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="0">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="255">
+          <animation channel="255" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+    <operator type="Material">
+      <name>
+      </name>
+      <dimension x="500" y="140" width="200" height="20" />
+      <properties />
+    </operator>
+    <operator type="Colorize">
+      <name>
+      </name>
+      <dimension x="500" y="120" width="100" height="20" />
+      <properties>
+        <byte value="15">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="228">
+          <animation channel="255" amplify="1" />
+        </byte>
+        <byte value="128">
+          <animation channel="255" amplify="1" />
+        </byte>
+      </properties>
+    </operator>
+  </page>
+</project>

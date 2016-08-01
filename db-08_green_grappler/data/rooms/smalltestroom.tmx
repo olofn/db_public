@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="12" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="tiles" tilewidth="10" tileheight="10">
+  <image source="../images/tileset1.bmp" trans="ff00ff" width="320" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="hook" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="769" name="hero_fall" tilewidth="24" tileheight="27">
+  <image source="../images/hero_fall.bmp" trans="ff00ff" width="24" height="27"/>
+ </tileset>
+ <layer name="background" width="32" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYB7Fo3gUj+JRPOIwAI/DBIE=
+  </data>
+ </layer>
+ <layer name="middle" width="32" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgUETDjCRiUvRiUzdQYNR+0u3HFa/0sp9Us/G5cyiGP63tp2b8kmM/PcFgsX8gMQC7TQGH
+  </data>
+ </layer>
+ <objectgroup name="entities" width="32" height="12">
+  <object type="Hero" gid="769" x="40" y="80" width="24" height="27"/>
+ </objectgroup>
+ <layer name="foreground" width="32" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgw2wDrDdA20/Op9ebmLFgbG5i96AFY1Nb/fgCpeBArjiihWH/EC4aygAAIiLALU=
+  </data>
+ </layer>
+</map>

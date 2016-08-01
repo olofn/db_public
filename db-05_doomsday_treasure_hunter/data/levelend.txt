@@ -1,0 +1,38 @@
+The End
+50
+2000
+training.xm
+1111111111111111111111111111
+1.........................t1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1..........................1
+1...................s......1
+1..........................1
+1..p.....................g.1
+1111111111111111111111111111
+DIALOG
+B X: Mwuhahaha. Finally, all the galaxies treasures are mine!
+B X: And I've destroyed all planets, so now I am the ruler of the universe!
+B X: Mwuhahaha!
+P KOODIE: I'm so happy my lord!
+B X: You have done a great job Koodie. I'll give you an extra Christmas bonus this year.
+P KOODIE: But my lord!
+B X: Yes, what is it you puny slave?!
+P KOODIE: You told me to remind you that I was not to receive a Christmas bonus this year.
+B X: ... right... of course... I remember... Well, then you shall not receive one!
+B X: Now get back here with the last treasure! I have more work for you!
+P KOODIE: Yes my lord!
+              
+Smells like a sequal, don't you think?
+THE END

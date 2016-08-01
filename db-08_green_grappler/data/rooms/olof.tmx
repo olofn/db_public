@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="23" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="tileset1" tilewidth="10" tileheight="10">
+  <image source="../images/tileset1.bmp" width="320" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" value="true"/>
+    <property name="hook" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="769" name="entities" tilewidth="10" tileheight="10">
+  <image source="../images/entities.bmp" trans="ff00ff" width="320" height="240"/>
+ </tileset>
+ <layer name="background" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztzaENAAAIA7AlCP7/mA9wJIiK6laSOtaL6xsAAD4Z7W4IvQ==
+  </data>
+ </layer>
+ <layer name="middle" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eJztzbENADAMwzCn/x+dqTd4CAVo5iSZ47/S32/F5/P5fD6ff9VvvhhiAMU=
+  </data>
+ </layer>
+ <layer name="entities" width="32" height="23">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMFgAMzMqHmhzRsEoGAWjgFZgEZ6yiRGP3BIKyrTFFOhdSMWyFADOfwLL
+  </data>
+ </layer>
+ <layer name="foreground" width="32" height="23" opacity="0.32">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAICXAQuAAAE=
+  </data>
+ </layer>
+</map>

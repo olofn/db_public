@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BA9521D-46D3-4B66-B8FE-A98A05387ACF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VerkstanEditor</RootNamespace>
+    <AssemblyName>db-verkstan-editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>55B6707806442DC682573703855694C92AFAB3C5</ManifestCertificateThumbprint>
+    <ManifestKeyFile>VerkstanEditor_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <PublishUrl>D:\tmp\db-verkstan\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="db.Verkstan.Cli, Version=1.0.3297.26029, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\db-verkstan\db.Verkstan.Cli-Release\db.Verkstan.Cli.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gui\ChannelInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ChannelInfo.Designer.cs">
+      <DependentUpon>ChannelInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ClipValueHorizontalLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ClipValueHorizontalLine.Designer.cs">
+      <DependentUpon>ClipValueHorizontalLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ClipValueVerticalLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ClipValueVerticalLine.Designer.cs">
+      <DependentUpon>ClipValueVerticalLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\ExceptionForm.Designer.cs">
+      <DependentUpon>ExceptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\GeneratorClipPropertiesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\GeneratorClipPropertiesView.Designer.cs">
+      <DependentUpon>GeneratorClipPropertiesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ClipView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ClipView.Designer.cs">
+      <DependentUpon>ClipView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\GeneratorClipValueView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\GeneratorClipValueView.Designer.cs">
+      <DependentUpon>GeneratorClipValueView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\SplineClipPropertiesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\SplineClipPropertiesView.Designer.cs">
+      <DependentUpon>SplineClipPropertiesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\SplineClipValueView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\SplineClipValueView.Designer.cs">
+      <DependentUpon>SplineClipValueView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TimelineChannelPropertiesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\TimelineChannelPropertiesView.Designer.cs">
+      <DependentUpon>TimelineChannelPropertiesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TimelineChannelsPropertiesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\TimelineChannelsPropertiesView.Designer.cs">
+      <DependentUpon>TimelineChannelsPropertiesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TimelineChannelsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\TimelineChannelsView.Designer.cs">
+      <DependentUpon>TimelineChannelsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ColorProperty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\ColorProperty.Designer.cs">
+      <DependentUpon>ColorProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\MiniTimeline.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\MiniTimeline.Designer.cs">
+      <DependentUpon>MiniTimeline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\OperatorPageViewPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\OperatorPageViewPanel.Designer.cs">
+      <DependentUpon>OperatorPageViewPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\OperatorPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\OperatorPageView.Designer.cs">
+      <DependentUpon>OperatorPageView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\OperatorPropertyAnimationSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\OperatorPropertyAnimationSettings.Designer.cs">
+      <DependentUpon>OperatorPropertyAnimationSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\OperatorPropertyGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\OperatorPropertyGrid.Designer.cs">
+      <DependentUpon>OperatorPropertyGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\BeatPositionLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\BeatPositionLine.Designer.cs">
+      <DependentUpon>BeatPositionLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TimelinesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\TimelinesView.Designer.cs">
+      <DependentUpon>TimelinesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\TimelineView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\TimelineView.Designer.cs">
+      <DependentUpon>TimelineView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Transport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\Transport.Designer.cs">
+      <DependentUpon>Transport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\VectorProperty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gui\VectorProperty.Designer.cs">
+      <DependentUpon>VectorProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Channel.cs" />
+    <Compile Include="Logic\Clip.cs" />
+    <Compile Include="Logic\CoreOperator.cs" />
+    <Compile Include="Logic\Exporter.cs" />
+    <Compile Include="Logic\GeneratorClip.cs" />
+    <Compile Include="Logic\LoadOperator.cs" />
+    <Compile Include="Logic\Project.cs" />
+    <Compile Include="Logic\PropagateOperator.cs" />
+    <Compile Include="Logic\Operator.cs" />
+    <Compile Include="Logic\OperatorFactory.cs" />
+    <Compile Include="Logic\Page.cs" />
+    <Compile Include="Gui\ProjectView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\ProjectView.Designer.cs">
+      <DependentUpon>ProjectView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\Metronome.cs" />
+    <Compile Include="Logic\SplineClip.cs" />
+    <Compile Include="Logic\ControlPoint.cs" />
+    <Compile Include="Logic\StoreOperator.cs" />
+    <Compile Include="Logic\Timeline.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Gui\ColorProperty.resx">
+      <DependentUpon>ColorProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ProjectView.resx">
+      <DependentUpon>ProjectView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\OperatorPropertyGrid.resx">
+      <DependentUpon>OperatorPropertyGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\VectorProperty.resx">
+      <DependentUpon>VectorProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Util\RGBHSL.cs" />
+    <Compile Include="Util\Sound.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="eye_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="play_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="warning_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Gui\ChannelInfo.resx">
+      <DependentUpon>ChannelInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ClipValueHorizontalLine.resx">
+      <DependentUpon>ClipValueHorizontalLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ClipValueVerticalLine.resx">
+      <DependentUpon>ClipValueVerticalLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ClipView.resx">
+      <DependentUpon>ClipView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ExceptionForm.resx">
+      <DependentUpon>ExceptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\GeneratorClipPropertiesView.resx">
+      <DependentUpon>GeneratorClipPropertiesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\GeneratorClipValueView.resx">
+      <DependentUpon>GeneratorClipValueView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\SplineClipPropertiesView.resx">
+      <DependentUpon>SplineClipPropertiesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\SplineClipValueView.resx">
+      <DependentUpon>SplineClipValueView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\TimelineChannelPropertiesView.resx">
+      <DependentUpon>TimelineChannelPropertiesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\TimelineChannelsPropertiesView.resx">
+      <DependentUpon>TimelineChannelsPropertiesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\TimelineChannelsView.resx">
+      <DependentUpon>TimelineChannelsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\MiniTimeline.resx">
+      <DependentUpon>MiniTimeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\OperatorPageViewPanel.resx">
+      <DependentUpon>OperatorPageViewPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\BeatPositionLine.resx">
+      <DependentUpon>BeatPositionLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\OperatorPageView.resx">
+      <DependentUpon>OperatorPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\OperatorPropertyAnimationSettings.resx">
+      <DependentUpon>OperatorPropertyAnimationSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\TimelinesView.resx">
+      <DependentUpon>TimelinesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\TimelineView.resx">
+      <DependentUpon>TimelineView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Transport.resx">
+      <DependentUpon>Transport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="operators_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="metronome.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

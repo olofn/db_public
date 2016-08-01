@@ -1,0 +1,92 @@
+<project>
+  <version>1</version>
+  <bpm>120</bpm>
+  <page>
+    <operator type="Pixels">
+      <name>
+      </name>
+      <dimension x="200" y="60" width="100" height="20" />
+      <properties>
+        <color r="255" g="255" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <color r="255" g="255" b="255">
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+          <animation channel="-1" amplify="1" />
+        </color>
+        <int value="255">
+          <animation channel="-1" amplify="1" />
+        </int>
+        <int value="0">
+          <animation channel="-1" amplify="1" />
+        </int>
+      </properties>
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="300" y="120" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Box">
+      <name>
+      </name>
+      <dimension x="300" y="100" width="100" height="20" />
+      <properties>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+        <float value="1">
+          <animation channel="-1" amplify="1" />
+        </float>
+      </properties>
+    </operator>
+    <operator type="Timeline">
+      <name>jjj</name>
+      <dimension x="400" y="140" width="100" height="20" />
+      <properties>
+        <byte value="1">
+          <animation channel="-1" amplify="1" />
+        </byte>
+        <int value="0">
+          <animation channel="-1" amplify="1" />
+        </int>
+      </properties>
+      <timeline>
+        <channel>
+          <number>1</number>
+          <clip type="spline">
+            <dimension x="0" y="0" width="8" />
+            <splinetype>0</splinetype>
+            <controlpoints>
+              <controlpoint>
+                <dimension x="247" y="0,7619048" />
+              </controlpoint>
+              <controlpoint>
+                <dimension x="774" y="-0,3571428" />
+              </controlpoint>
+            </controlpoints>
+          </clip>
+        </channel>
+      </timeline>
+    </operator>
+    <operator type="Model">
+      <name>
+      </name>
+      <dimension x="400" y="120" width="100" height="20" />
+      <properties />
+    </operator>
+    <operator type="Icosahedron">
+      <name>
+      </name>
+      <dimension x="400" y="100" width="100" height="20" />
+      <properties />
+    </operator>
+  </page>
+</project>

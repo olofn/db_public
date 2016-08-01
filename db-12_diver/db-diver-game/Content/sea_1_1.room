@@ -1,0 +1,28 @@
+﻿0000000000000000000000..0
+..00000000000000000000..2
+....0000000000000000....2
+......000000000000......2
+.......0000000000.......2
+.........000000.........2
+...........0000.........2
+...........000..........2
+............2...........2
+............2...........2
+........................2
+...............00.......2
+...............000000...2
+.......000...00000000...2
+....000000...00000000...2
+....000000111000000002..2
+3333333333333333333333333
+
+Shoal(new Color(46, 162, 200))
+Decoration(new SpriteGrid("bgcave01", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(46, 162, 200))
+Shoal(new Color(8, 119, 156))
+Decoration(new SpriteGrid("bgcave02", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(8, 119, 156))
+Decoration(new SpriteGrid("bgcave03", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(0, 77, 102))
+Decoration(new SpriteGrid("bgcave04", 1, 1), 0, 0, 0, Room.Layer.Background, new Color(0, 44, 58))
+Fish("yellow_fish", 2, 2, 2, Room.Layer.Foreground)
+
+// public Decoration(string spriteGridName, int sprites, int animationSpeed, Rectangle dimension, Room.Layer layer, Color color)
+ Decoration(new SpriteGrid("darkness", 1, 1), 1, new Rectangle(70, -100, 250, 230), Room.Layer.Foreground, new Color(0, 0, 0, 200));
